@@ -2,20 +2,20 @@
 Création d'un site de réservation en massage madérothérapeutique 
 
 ## PREREQUIS POUR OUVRIR LE PROJET : 
-1 - Installer la dernière version de PHP 8.1. 
+1 - Installer la dernière version de PHP 8.1
 2 - Installer composer   
 3 - Installer symfony   
 
 
 ## POUR INSTALLER LE PROJET 
-1 - Ouvrir le dossier ou cloner le Git Hub sur votre éditeur de code (ex: Visual Studio Code).  
+1 - Ouvrir le dossier ou cloner le Git Hub sur votre éditeur de code (ex: Visual Studio Code)  
 
 2 - Ouvrir le terminal de votre éditeur de code, taper :  
-    *composer install* 
+*composer install* 
 
-3 - Ouvrir le fichier __.env__ changé la __ligne 35__ avec votre identifiant et votre mot de passe de PHPMyAdmin   
-    *db_User = Votre identifiant PHPMyAdmin*
-    *db_Password = Votre mot de passe PHPMyAdmin*
+3 - Ouvrir le fichier __.env__ changé la __ligne 35__ avec votre identifiant et votre mot de passe de PHPMyAdmin. 
+*db_User = Votre identifiant PHPMyAdmin*  
+*db_Password = Votre mot de passe PHPMyAdmin*
 
 4 - Ouvrir PHPMyAdmin, installer la base de données qui se trouve dans le __dossier public > database__, c'est le fichier : *liligiroud.sql*   
 
