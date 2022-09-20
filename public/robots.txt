@@ -1,0 +1,56 @@
+User-Agent: *
+Allow: /
+
+User-Agent: *
+Allow: /article
+
+User-Agent: *
+Allow: /blog
+
+User-Agent: *
+Allow: /booking/
+
+User-Agent: *
+Allow: /cgu
+
+User-Agent: *
+Allow: /cgv
+
+User-Agent: *
+Allow: /massage/
+
+User-Agent: *
+Allow: /rendezvous
+
+User-Agent: *
+Allow: /calendar
+
+User-Agent: *
+Allow: /inscription
+
+User-Agent: *
+Allow: /prestationsettarifs
+
+User-Agent: *
+Disallow: /compte/
+
+User-Agent: *
+Disallow: /admin/
+
+User-Agent: *
+Disallow: /commande/
+
+User-Agent: *
+Disallow: /panier
+
+User-Agent: *
+Disallow: /cart/
+
+User-Agent: *
+Disallow: /motdepasseoublie/
+
+User-Agent: *
+Disallow: /connexion
+
+User-Agent: *
+Disallow: /deconnexion

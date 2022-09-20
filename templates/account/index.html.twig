@@ -1,0 +1,48 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Mes commandes - Lili Giroud{% endblock %}
+
+{% block stylesheets %}
+	<link rel="stylesheet" href="{{asset('assets/css/address.css')}}">
+{% endblock %}
+
+{% block account %}{% endblock %}
+
+{% block body %}
+    <main id="addressAccount">
+
+		<!-- TITRE H1 -->
+		<h1 class="title">Mes réservations</h1>
+
+		<!-- PARAGRAPHE SI PAS DE RESERVATION -->
+		{% if orders |length == 0 %}
+		<p id="noAddress">Vous n'avez pas encore fait de réservation</p>
+
+		{% else %}
+
+		<!-- MES RESERVATIONS -->
+        <!-- Grille titre -->
+		<div id="gridTitle">
+            <h2 class="titleThree">Référence</h2>
+        	<h2 class="titleThree centergrid">Date</h2>
+        	<h2 class="titleThree centergrid">Quantité</h2>
+            <h2 class="titleThree centergrid">Total</h2>
+        </div>
+
+		{% for order in orders %}
+		<!-- Grille réservation -->
+        <div id="gridCare">
+            <p>{{ order.reference }}</p>
+            <p class="centergrid">{{ order.createdAt|date('d/m/Y') }}</p>
+            <p class="centergrid">x {{ order.orderDetails|length }}</p>
+            <p class="centergrid">{{ order.getTotal|number_format(2, ',', '.') }} €</p>
+        </div>
+            
+		{% endfor %}
+		{% endif %}
+
+		<!-- IMAGE ILLUSTRATION -->
+		<img src="{{asset('assets/img/illustration/separatorDecouv.svg')}}" alt"" id="separatorForm">
+
+	</main>
+{% endblock %}
