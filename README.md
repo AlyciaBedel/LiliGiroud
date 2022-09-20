@@ -2,13 +2,14 @@
 Création d'un site de réservation en massage madérothérapeutique 
 
 ## PREREQUIS POUR OUVRIR LE PROJET : 
-1 - Installer la dernière version de PHP 8.1 <br />
+1 - Disposer d'un serveur local (ex : MAMP ou XAMPP) et d'un éditeur de code (ex: VSCode) <br />
+2 - Installer la dernière version de PHP 8.1 <br />
 2 - Installer composer <br />
 3 - Installer symfony   
 
 
 ## POUR INSTALLER LE PROJET 
-1 - Ouvrir le dossier ou cloner le Git Hub sur votre éditeur de code (ex: Visual Studio Code)  
+1 - Ouvrir le dossier ou cloner le Git Hub sur votre éditeur de code
 
 2 - Ouvrir le terminal de votre éditeur de code, taper : <br />
     *composer install* 
