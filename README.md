@@ -41,3 +41,16 @@ Mot de passe : test
 <br />
 ## VERSION ALTERNATIVE DU CALENDRIER 
 Afin de découvrir le calendrier alternative crée par la chef de projet : Léonore, rendez-vous sur [le git hub de dépôt](https://github.com/AlyciaBedel/CalendarLeonore.git) !
+
+__Objectif du développement :__ <br /> 
+Ce développement a pour objectif d’ajouter un calendrier permettant aux utilisateurs du site web de placer leur rendez-vous directement en “un clique”. Les clients peuvent voir les créneaux déjà réservés.
+
+__Déroulement :__ <br /> 
+Le client choisit son produit cela l'emmène sur la page calendrier, il choisi le jour qui l'intéresse et la plage horaire en cliquant sur le calendrier, un créneaux du nom de la prestation est alors créé, ce créneaux a une durée correspondant à la durée de la prestation, une fois le créneaux choisi il doit aller valider son panier
+
+__Réalisation :__ <br />
+Le calendrier bloque la réservation au horaire de travail défini par l’utilisateur.(non effectué)
+le calendrier affiche un bloc de couleur sans le nom de la prestation, lorsque le client arrive sur la page calendrier et qu’il na pas lui meme effectuer cette reservation, une reservation sur ce bloc est impossible (non effectuer)
+le client peut déplacer la réservation qu’il a créée à un autre horaire/autre jour disponible (fait)
+les réservations du client sont sauvegarder sur la page calendrier puis dans la base de donnée (non effectuer)
+Lorsque le créneaux est posé, une validation est attendue de sa part afin qu’il soit redirigé vers le panier.
