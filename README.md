@@ -1,4 +1,4 @@
-# LiliGiroudProjet-4
+# Lili Giroud : Projet 4
 Création d'un site de réservation en massage madérothérapeutique 
 
 ## PREREQUIS POUR OUVRIR LE PROJET : 
