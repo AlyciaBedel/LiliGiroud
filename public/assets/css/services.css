@@ -400,6 +400,13 @@
 }
 
 @media screen and (max-width: 420px) {
+
+    /* --- Container globale ---*/
+    #meeting {
+        height: 750px;
+
+    }
+
     /* --- Bouton ---*/
     #buttonMeet a {
         width: 350px;
@@ -408,6 +415,21 @@
     /* --- Container slide (flèche + avis) ---*/
     .testim .wrap {
         height: 600px;
+        padding: 0;
+    }
+
+    /* --- Container des avis ---*/
+    .testim .cont>div {
+        padding: 0 30px 0 30px;
+    }
+
+}
+
+@media screen and (max-width: 370px) {
+
+    /* --- Container slide (flèche + avis) ---*/
+    .testim .wrap {
+        height: 800px;
     }
 
 }
