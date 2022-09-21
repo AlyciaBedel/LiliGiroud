@@ -124,7 +124,7 @@
 #total {
     width: 60%;
     font-size: 24px;
-    margin:auto;
+    margin: auto;
     text-align: right;
     font-weight: 800;
 }
@@ -208,5 +208,12 @@
     /* Total et sous total */
     #total {
         width: 90%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    /* Bouton valider la commande */
+    #order_submit {
+        width: 350px;
     }
 }
