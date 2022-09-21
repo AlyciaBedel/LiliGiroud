@@ -299,6 +299,43 @@ ul li {
     height: auto;
 }
 
+/* -------- FOOTER --------*/
+footer {
+    background-color: var(--footer-color);
+}
+
+/* Alignement des icones */
+#iconFooter ul,
+#navLaw ul {
+    display: flex;
+    justify-content: center;
+}
+
+/* Taille des icones */
+#iconFooter a img {
+    width: 100%;
+    max-width: 113px;
+}
+
+/* Mise en style du texte */
+#navLaw a {
+    list-style: none;
+    text-decoration: none;
+    margin: 0 5px;
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+/* Padding / espacement footer */
+#iconFooter {
+    padding: 80px 0;
+}
+
+#navLaw {
+    padding-bottom: 40px;
+}
+
 /* -------- MEDIA QUERIES --------*/
 @media screen and (max-width: 920px) {
 
@@ -321,38 +358,21 @@ ul li {
     }
 }
 
-/* -------- FOOTER --------*/
-footer {
-    background-color: var(--footer-color);
-}
+@media screen and (max-width: 400px) {
 
-/* Alignement des icones */
-#iconFooter ul,
-#navLaw ul {
-    display: flex;
-    justify-content: center;
-}
+    /* -------- TITRE H2 --------*/
+    .title {
+        font-size: 30px;
+    }
 
-/* Taille des icones */
-#iconFooter a img {
-    width: 113px;
-}
+    /* -------- BOUTON TYPE --------*/
+    /*--- Bouton marron ---*/
+    .buttonBrown {
+        width: 370px;
+    }
 
-/* Mise en style du texte */
-#navLaw a {
-    list-style: none;
-    text-decoration: none;
-    margin: 0 5px;
-    color: var(--text-color);
-    font-weight: 400;
-    font-size: 18px;
-}
-
-/* Padding / espacement footer */
-#iconFooter {
-    padding: 80px 0;
-}
-
-#navLaw {
-    padding-bottom: 40px;
+    /*--- Bouton bleu ---*/
+    .buttonBlue {
+        width: 370px;
+    }
 }
