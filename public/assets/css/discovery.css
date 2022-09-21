@@ -235,7 +235,7 @@
 
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 420px) {
     /* --- Container background citation ---*/
     #containerQuote {
         height: 900px;
