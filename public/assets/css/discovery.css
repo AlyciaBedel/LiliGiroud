@@ -234,3 +234,14 @@
     }
 
 }
+
+@media screen and (max-width: 400px) {
+    /* --- Container background citation ---*/
+    #containerQuote {
+        height: 900px;
+    }
+
+    .buttonBrown {
+        width: 350px;
+    }
+}
