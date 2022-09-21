@@ -328,7 +328,7 @@
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 420px) {
 
     /* Bouton valider la commande */
     #address_submit, #addressAccount .buttonBlue {
