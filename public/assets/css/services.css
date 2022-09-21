@@ -134,6 +134,8 @@
 .testim .arrow {
     transition: all .3s ease-in-out;
     padding: 5px;
+    width: 100%;
+    max-width: 40px;
 }
 
 /* --- Container des avis ---*/
@@ -393,6 +395,19 @@
     /* --- Container globale ---*/
     .testim {
         padding-top: 80px;
+    }
+
+}
+
+@media screen and (max-width: 420px) {
+    /* --- Bouton ---*/
+    #buttonMeet a {
+        width: 350px;
+    }
+
+    /* --- Container slide (flèche + avis) ---*/
+    .testim .wrap {
+        height: 600px;
     }
 
 }
