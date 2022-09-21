@@ -268,7 +268,6 @@
     }
 }
 
-
 /* -------- GRILLE TITRE --------*/
 /* Container Titre */
 #gridTitle {
@@ -326,5 +325,13 @@
     #gridCare {
         width: 90%;
         grid-template-rows: 80px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    /* Bouton valider la commande */
+    #address_submit, #addressAccount .buttonBlue {
+        width: 350px;
     }
 }
