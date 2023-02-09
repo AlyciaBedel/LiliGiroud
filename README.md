@@ -2,6 +2,9 @@
 Création d'un site de réservation en massage madérothérapeutique 
 <br />
 <br />
+
+![bannière](https://user-images.githubusercontent.com/98737248/217847571-90405e58-9ae5-4018-955e-b3f1b41a9ab4.jpg)
+
 ## Pré-requis pour ouvrir le projet
 1 - Disposer d'un serveur local (ex : MAMP ou XAMPP) et d'un éditeur de code (ex: VSCode) <br />
 2 - Installer la dernière version de PHP 8.1 <br />
