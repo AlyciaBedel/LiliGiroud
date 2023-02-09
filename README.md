@@ -1,14 +1,14 @@
-# Lili Giroud : Projet 4
+# Lili Giroud 
 Création d'un site de réservation en massage madérothérapeutique 
 <br />
 <br />
-## PRÉ-REQUIS POUR OUVRIR LE PROJET 
+## Pré-requis pour ouvrir le projet
 1 - Disposer d'un serveur local (ex : MAMP ou XAMPP) et d'un éditeur de code (ex: VSCode) <br />
 2 - Installer la dernière version de PHP 8.1 <br />
 3 - Installer composer <br />
 4 - Installer symfony   
 <br />
-## POUR INSTALLER LE PROJET 
+## Pour installer le projet
 1 - Ouvrir le dossier ou cloner le Git Hub sur votre éditeur de code
 
 2 - Ouvrir le terminal de votre éditeur de code, taper : <br />
@@ -39,7 +39,7 @@ Email : utilisateurs@liligiroud.fr <br />
 Mot de passe : test
 <br />
 <br />
-## VERSION ALTERNATIVE DU CALENDRIER 
+## Version alternative du calendrier 
 Afin de découvrir le calendrier alternative crée par la chef de projet : Léonore, rendez-vous sur [le git hub de dépôt](https://github.com/AlyciaBedel/CalendarLeonore.git) !
 
 __Objectif du développement :__ <br /> 
