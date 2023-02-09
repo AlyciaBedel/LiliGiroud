@@ -1,7 +1,6 @@
 # Lili Giroud 
 Création d'un site de réservation en massage madérothérapeutique 
 <br />
-<br />
 
 ![bannière](https://user-images.githubusercontent.com/98737248/217847571-90405e58-9ae5-4018-955e-b3f1b41a9ab4.jpg)
 
