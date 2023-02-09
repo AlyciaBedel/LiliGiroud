@@ -29,7 +29,7 @@ Création d'un site de réservation en massage madérothérapeutique
 
 7- Le projet est prêt !     
 <br />
-## IDENTIFIANTS POUR SE CONNECTER ET DÉCOUVRIR LES INTERFACES ATTITRÉES
+## Identifiants pour se connecter et découvrir les interfaces attitrées
 __Connexion avec un compte administrateur__ <br />
 Email : administrateur@liligiroud.fr <br />
 Mot de passe : test
