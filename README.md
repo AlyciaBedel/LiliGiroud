@@ -2,6 +2,8 @@
 Création d'un site de réservation en massage madérothérapeutique 
 <br />
 
+<img src="https://user-images.githubusercontent.com/98737248/217848822-2c095871-adf2-40e2-b907-5c49a13ece05.svg" style="height:35px;"> [![forthebadge](https://forthebadge.com/images/badges/powered-by-coffee.svg)](https://forthebadge.com)
+
 ![bannière](https://user-images.githubusercontent.com/98737248/217847571-90405e58-9ae5-4018-955e-b3f1b41a9ab4.jpg)
 
 ## Pré-requis pour ouvrir le projet
